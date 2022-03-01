@@ -1,7 +1,7 @@
 
 <?php
 
-hash sha256 'mypassword';
+echo hash('sha256', 'mypassword');
 
 
 ?>
